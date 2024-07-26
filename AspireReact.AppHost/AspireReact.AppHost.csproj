@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AspireReact.ApiService\AspireReact.ApiService.csproj" />
-    <ProjectReference Include="..\AspireReact.Web\AspireReact.Web.csproj" />
+    <!--<ProjectReference Include="..\AspireReact.Web\AspireReact.Web.csproj" />-->
   </ItemGroup>
 
   <ItemGroup>
