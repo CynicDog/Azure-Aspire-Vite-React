@@ -10,4 +10,8 @@
     <ProjectReference Include="..\AspireReact.ServiceDefaults\AspireReact.ServiceDefaults.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Aspire.Npgsql" Version="8.1.0" />
+  </ItemGroup>
+
 </Project>
