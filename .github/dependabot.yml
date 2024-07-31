@@ -5,7 +5,19 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "nuget" 
+    directory: "/AspireReact.ApiService" 
+    schedule:
+      interval: "weekly" 
+  - package-ecosystem: "nuget" 
+    directory: "/AspireReact.AppHost" 
+    schedule:
+      interval: "weekly" 
+  - package-ecosystem: "nuget" 
+    directory: "/AspireReact.ServiceDefaults" 
+    schedule:
+      interval: "weekly" 
+  - package-ecosystem: "npm" 
+    directory: "/aspiring-react" 
     schedule:
       interval: "weekly" 
